@@ -113,7 +113,8 @@ def  display_tables():
     tables=cursor.fetchall()
     for table in tables:
         st.write(table[0])
-        print("main")      
+        print("main")
+        print("branch")
 if __name__=="__main__":
       main()
       cursor.close()
