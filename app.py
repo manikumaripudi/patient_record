@@ -112,7 +112,8 @@ def  display_tables():
     cursor.execute(query)
     tables=cursor.fetchall()
     for table in tables:
-        st.write(table[0])      
+        st.write(table[0])
+        print("main")      
 if __name__=="__main__":
       main()
       cursor.close()
